@@ -11,4 +11,14 @@ Reason: If all the developers just run the automated test locally before pushing
 
 ## Part 1 - Expose: E2E Testing with Jest-Puppesteer
 2) Would you use an end to end test to check if a function is returning the correct output?
-**No**
+   
+**No, we should use unit test for specific function**
+
+## Part 2 - Explore: Unit Testing with Jest(2 points)
+3) Would you use a unit test to test the “message” feature of a messaging application? Why or why not? For this question, assume the “message” feature allows a user to write and send a message to another user.
+
+**No, I would not use a unit test to test the 'message' feature of a messaging application, because it is too complex**
+
+4) Would you use a unit test to test the “max message length” feature of a messaging application? Why or why not? For this question, assume the “max message length” feature prevents the user from typing more than 80 characters.
+
+**Yes, I would use a unit test to test the "max message length" feature of a messaging application because this is a comparatively small feature**
